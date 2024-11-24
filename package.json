@@ -1,0 +1,27 @@
+{
+  "name": "nomadyoutube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahui0525/wetube-reloaded.git"
+  },
+  "author": "Dahee Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dahui0525/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/dahui0525/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "nodemon": "^3.1.7"
+  }
+}
